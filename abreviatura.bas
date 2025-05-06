@@ -1,6 +1,6 @@
 Option Explicit
 
-Function AbreviarNomeLongos(nomeCompleto As String, Optional limiteDeCaracteres As Long = 26) As String
+Function AbreviarNome(nomeCompleto As String, Optional limiteDeCaracteres As Long = 26) As String
     Dim partes() As String
     Dim nomeAbreviado As String
     Dim i As Integer
@@ -18,12 +18,12 @@ Function AbreviarNomeLongos(nomeCompleto As String, Optional limiteDeCaracteres 
     
     comprimentoTotal = Len(nomeCompleto)
     If comprimentoTotal <= limiteDeCaracteres Then
-        AbreviarNomeLongos = nomeCompleto
+        AbreviarNome = nomeCompleto
         Exit Function
     End If
     partes = Split(nomeCompleto, " ")
     If UBound(partes) = 0 Then
-        AbreviarNomeLongos = nomeCompleto
+        AbreviarNome = nomeCompleto
         Exit Function
     End If
 
@@ -43,5 +43,5 @@ Function AbreviarNomeLongos(nomeCompleto As String, Optional limiteDeCaracteres 
         End If
     Next i
     nomeAbreviado = nomeAbreviado & partes(UBound(partes))
-    AbreviarNomeLongos = nomeAbreviado
+    AbreviarNome = nomeAbreviado
 End Function

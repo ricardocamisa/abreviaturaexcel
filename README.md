@@ -11,7 +11,7 @@ Este repositório contém uma função personalizada em VBA para Excel que permi
 
 ```VBA
   ' Exemplo de uso da função
-  Function AbreviarNomeLongos(NomeCompleto As String, LimiteCaracteres As Integer) As String
+  Function AbreviarNome(NomeCompleto As String, LimiteCaracteres As Integer) As String
   ' Implementação da função aqui End
   Function
 ```
