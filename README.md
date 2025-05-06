@@ -1,4 +1,6 @@
 ```mdx
+import { CodeBlock } from "components/CodeBlock";
+
 # 🧩 Função VBA para Abreviação de Nomes no Excel
 
 Este repositório contém uma função personalizada em VBA para Excel que permite abreviar nomes completos de forma inteligente, respeitando um limite de caracteres definido. A função é especialmente útil em sistemas de emissão de documentos, crachás, relatórios ou listas, onde o espaço é limitado.
