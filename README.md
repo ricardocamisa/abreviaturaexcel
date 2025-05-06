@@ -10,7 +10,8 @@ Este repositório contém uma função personalizada em VBA para Excel que permi
 - **Fácil Integração**: Totalmente personalizável e simples de integrar a qualquer planilha.
 
 ```VBA
-  ' Exemplo de uso da função Function AbreviarNome(NomeCompleto As String,
-  LimiteCaracteres As Integer) As String ' Implementação da função aqui End
+  ' Exemplo de uso da função
+  Function AbreviarNome(NomeCompleto As String, LimiteCaracteres As Integer) As String
+  ' Implementação da função aqui End
   Function
 ```
