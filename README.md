@@ -11,10 +11,3 @@ Permite definir um limite máximo de caracteres para o nome final.
 
 Totalmente personalizável e fácil de integrar a qualquer planilha.
 
-🛠️ Exemplo de uso:
-
-vba
-Copy
-Edit
-=AbreviarNomeLongos("Maria das Dores de Almeida Costa", 26)
-' Resultado: Maria das D. A. Costa
