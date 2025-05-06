@@ -9,8 +9,8 @@ Este repositório contém uma função personalizada em VBA para Excel que permi
 - **Limite de Caracteres**: Permite definir um limite máximo de caracteres para o nome final.
 - **Fácil Integração**: Totalmente personalizável e simples de integrar a qualquer planilha.
 
-<CodeBlock language="vba">
+```VBA
   ' Exemplo de uso da função Function AbreviarNome(NomeCompleto As String,
   LimiteCaracteres As Integer) As String ' Implementação da função aqui End
   Function
-</CodeBlock>
+```
